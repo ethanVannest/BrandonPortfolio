@@ -1,10 +1,15 @@
-
+import Header from "./components/Header";
+import Contact from "./components/Contact";
+import SidePanel from "./components/SidePanel";
+import Cards from "./components/Cards";
 
 
 const App = () => {
   return (
     <div>
-      <span>hello</span>
+      <Contact />
+      <SidePanel />
+      <Cards />
     </div>
   );
 }
