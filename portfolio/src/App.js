@@ -1,4 +1,3 @@
-import Header from "./components/Header";
 import Contact from "./components/Contact";
 import SidePanel from "./components/SidePanel";
 import Cards from "./components/Cards";
