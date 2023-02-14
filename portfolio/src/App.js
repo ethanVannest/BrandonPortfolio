@@ -1,14 +1,23 @@
 import Contact from "./components/Contact";
 import SidePanel from "./components/SidePanel";
-import Cards from "./components/Cards";
+import Header from "./components/Header";
 
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import Home from "./screens/Home";
 
 const App = () => {
   return (
     <div>
-      <Contact />
-      <SidePanel />
-      <Cards />
+      <Router>
+        <Header />
+          <div>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/contact" element={<Contact />} />
+            </Routes>
+              <SidePanel />
+          </div>
+      </Router>
     </div>
   );
 }
