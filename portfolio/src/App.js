@@ -8,6 +8,9 @@ import Home from "./screens/Home";
 const App = () => {
   return (
     <div>
+    <h1 className="text-6xl font-bold text-red-500">
+      Hello world!
+    </h1>
       <Router>
         <Header />
           <div>
