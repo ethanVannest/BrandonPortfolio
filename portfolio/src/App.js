@@ -1,14 +1,14 @@
 import Contact from "./components/Contact";
 import SidePanel from "./components/SidePanel";
 import Header from "./components/Header";
-
+import './index.css'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import Home from "./screens/Home";
 
 const App = () => {
   return (
     <div>
-    <h1 className="text-6xl font-bold text-red-500">
+    <h1 className="text-3xl font-bold underline ">
       Hello world!
     </h1>
       <Router>
