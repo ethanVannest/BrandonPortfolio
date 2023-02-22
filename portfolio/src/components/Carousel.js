@@ -51,7 +51,7 @@ const Carousel = () => {
 
   return (
     <div className="carousel my-12 mx-auto">
-      <h2 className="text-4xl leading-8 font-semibold mb-12 text-black">
+      <h2 className="text-4xl leading-8 font-semibold mb-12 text-stone-300">
         Gallery
       </h2>
       <div className="relative overflow-hidden">

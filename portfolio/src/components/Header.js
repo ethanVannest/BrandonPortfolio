@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+// import index from '../sr'
 const Header = () => {
   return (
     <div>
-      <h2>Brandon</h2>
+      <h1 className='mb-4 text-4xl font-extrabold leading-none tracking-tight text-stone-300 md:text-5xl lg:text-6xl dark:text-stone-300'>BRANDON VANNEST</h1>
       
-      <img src='../public/b-solid.svg' alt="B img"></img>
-      <ul>
+      <ul className='text-stone-600'>
         <li><Link to="/">Home</Link></li>
         <li>Gallery</li>
         <li> <Link to="/contact">Contact</Link></li>

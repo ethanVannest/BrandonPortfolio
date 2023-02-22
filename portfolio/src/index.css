@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+html,
+body {
+    background-image: url('../src/mainWelder.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    object-position: 100% 0;
+    object-fit: cover;
+}
