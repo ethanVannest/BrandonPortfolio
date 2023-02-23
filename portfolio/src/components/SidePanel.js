@@ -2,7 +2,9 @@ import React from 'react'
 
 const SidePanel = () => {
   return (
-    <div>SidePanel</div>
+    <div className='bg-white h-10 w-10'>
+      
+    </div>
   )
 }
 
